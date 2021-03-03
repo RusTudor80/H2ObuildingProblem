@@ -1,0 +1,22 @@
+In primul rand, sper ca nu este nici o problema faptul ca am adaugat comentarii in engleza.
+
+Am ales aceasta solutie datorita unui capitol din "Little book of Semaphores" pagina 143 
+unde este explicat pe larg cum se formeaza molecula de apa, si am aplicat acelasi principiu 
+folosind semafoare pt fiecare atom, excludere mutuala pt a astepta amandoi atomii ca sa se poata 
+sincroniza si o bariera care pune in asteptare cele 2, respectiv 3 threaduri.
+
+Pentru a putea forma din nou pe langa cei doi compusi de reactie din stanga,
+alti doi reactanti am folosit acelasi principiu pentru a forma o alta molecula noua de apa,respectiv
+de clorura de calciu,tratand cei doi compusi din stanga ca alte doua threaduri diferite 
+care sa se sincronizeze doar cand am 2 de HCl si una de CaO, utilizand alte doua lacate 
+si alte doua bariere.
+
+Am renuntat la formarea unor structuri de date in care sa inmagazinez inf despre molecule,
+deoarece nu imi mai intelegeam propriul cod, dar am afisat fiecare numar de ordine 
+al atomilor si moleculelor.
+Nu am reusit sub nici o forma sa creez un fisier .dat asa ca am afisat totul in consola.
+
+
+Sper sa fie de inteles tot codul si sper ca am dat nume sugestive pentru fiecare variabila.
+Am sa va trimit pe mail t2.c si solutie.txt updated deoarece pe moodle nu se mai poate incarca.
+
